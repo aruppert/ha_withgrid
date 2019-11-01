@@ -1,0 +1,26 @@
+{
+  "name": "ha_withgrid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aruppert/ha_withgrid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aruppert/ha_withgrid/issues"
+  },
+  "homepage": "https://github.com/aruppert/ha_withgrid#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.3.2",
+    "sass": "^1.23.3"
+  },
+  "dependencies": {},
+  "description": ""
+}
