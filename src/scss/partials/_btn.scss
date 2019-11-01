@@ -1,0 +1,35 @@
+.btn {
+  border: 2px solid $head-color;
+  border-radius: 15px;
+  font-size: medium;
+  height: auto;
+  font-weight: bold;
+  background: $btn-color;
+  color: white;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.56);
+  box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.56);
+  outline: none;
+
+  &__act {
+    padding: 10px 30px 10px 30px;
+  }
+
+  &__h {
+    padding: 10px;
+  }
+
+  &__plus {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    background: $third-color;
+  }
+}
+
+.btn:hover {
+  -webkit-box-shadow: inset 10px 10px 5px -8px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: inset 10px 10px 5px -8px rgba(0, 0, 0, 0.56);
+  box-shadow: inset 10px 10px 5px -8px rgba(0, 0, 0, 0.56);
+}
