@@ -1,0 +1,15 @@
+.landing {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(156, 153, 144);
+  background: linear-gradient(
+    180deg,
+    rgba(156, 153, 144, 1) 15%,
+    rgba(75, 59, 71, 1) 50%,
+    rgba(175, 178, 151, 1) 85%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $head_color;
+}
