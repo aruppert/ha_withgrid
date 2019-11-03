@@ -3,12 +3,12 @@
   width: 100vw;
   height: 100vh;
   grid-template-rows: 60px [header] 1fr [main] 35px [total] 60px [footer];
-  grid-template-columns: 7fr [left] 1fr [right];
-  grid-template-areas:
-    "header header"
-    "main_l main_r"
-    "total_l total_r"
-    "footer footer";
+  grid-template-columns: auto;
+  // grid-template-areas:
+  //   "header header"
+  //   "main_l main_r"
+  //   "total_l total_r"
+  //   "footer footer";
   margin: 0px;
 }
 
@@ -43,7 +43,10 @@
   align-content: center;
   background: $main-color;
 }
-
+.main_wrapper {
+  background: $main-color;
+  max-width: 650px;
+}
 footer {
   grid-area: footer;
   display: flex;
